@@ -1,19 +1,13 @@
 package com.example.assign4;
 
-import android.app.Activity;
 import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.*;
-import android.view.View;
-import android.widget.TextView;
-
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
-import java.util.List;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,8 +41,9 @@ public class MainActivity extends AppCompatActivity {
         animalList.add(new Animals("Cow", "Click to see a cow!"));
         animalList.add(new Animals("Goat", "Click to see a goat!"));
         animalList.add(new Animals("Chicken", "Click to see a chicken!"));
-
-        
+        animalList.add(new Animals("Donkey", "Click to see a donkey!"));
+        animalList.add(new Animals("Turtle", "Click to see a turtle!"));
+        animalList.add(new Animals("Deer", "Click to see a deer!"));
     }
 
 }

@@ -13,9 +13,7 @@ public class Animals {
         return animalName;
     }
 
-    public String getAnimalDescription() {
-        return animalDescription;
-    }
+    public String getAnimalDescription() { return animalDescription; }
 
     public void setAnimalName(String animalName) {
         this.animalName = animalName;
